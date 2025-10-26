@@ -15,6 +15,7 @@ public class Classroom {
 		String post = "";
 		
 		String answer1;
+		String answer2;
 		
 		Student student1 = new Student(id, fName, lName, email, phone, home, post);
 		
@@ -54,6 +55,11 @@ public class Classroom {
 		System.out.println();
 		System.out.print("Student answer: ");
 		answer1 = input.next();
+		System.out.println();
+		System.out.println("2. What sport do you like?");
+		System.out.println();
+		System.out.print("Student answer: ");
+		answer2 = input.next();
 	}
 	
 	public static String validation (String value) {
